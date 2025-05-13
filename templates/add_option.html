@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Дневник дискомфорта</h2>
+<h3>Добавить дискомфорт в список</h3>
+<form method="post" class="mb-3">
+  <div class="mb-3">
+    <label class="form-label">Новый элемент</label>
+    <input type="text" name="new_dropdown_value" class="form-control" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Добавить</button>
+  <a href="/" class="btn btn-link">← Назад</a>
+</form>
+{% endblock %}
